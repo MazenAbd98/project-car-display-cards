@@ -1,0 +1,42 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px rgba(0,0,0,0.3);
+
+}
+
+.card h1 {
+    margin-bottom: 20px;
+    font-weight: 800;
+
+}
+
+.card p {
+    margin-bottom: 5px;
+    font-size: 20px;
+
+}
+
+.card-economy h1 {
+    color: salmon;
+}
+
+.card-luxury h1 {
+    color: magenta;
+}
+
+.card-family h1 {
+    color: chocolate;
+}
