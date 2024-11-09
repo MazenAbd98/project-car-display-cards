@@ -1,5 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
+    background: url(../assets/pattern.png);
+    background-size: 500px;
 }
 
 * {
@@ -14,6 +16,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 5px 10px 15px rgba(0,0,0,0.3);
+    
 
 }
 
@@ -22,6 +25,8 @@ body {
     font-weight: 800;
 
 }
+
+
 
 .card p {
     margin-bottom: 5px;
@@ -33,10 +38,88 @@ body {
     color: salmon;
 }
 
+.card-economy a {
+    background-color: salmon;
+}
+
+.card-economy a:hover {
+    background-color: rgb(235, 117, 104);
+}
+
+.card-economy a:active {
+    background-color: rgb(215, 106, 94);
+}
+
+
+
 .card-luxury h1 {
     color: magenta;
 }
 
+.card-luxury a {
+    background-color: magenta;
+}
+
+.card-luxury a:hover {
+    background-color: rgb(231, 10, 231);
+}
+
+.card-luxury a:active {
+    background-color: rgb(207,17,207);
+}
+
+
+
 .card-family h1 {
-    color: chocolate;
+    color: khaki;
+}
+
+.card-family a {
+    background-color: khaki;
+}
+
+
+.card-family a:hover {
+    background-color: rgb(216,207,125);
+}
+
+.card-family a:active {
+    background-color: rgb(208,200,129);
+}
+
+
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: aqua;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 5px;
+
+}
+
+
+.card-economy {
+    background: #fff url(../assets/economic-car.png) no-repeat right;
+    background-size: 200px;
+
+}
+
+.card-luxury {
+    background: #fff url(../assets/luxury-car.png) no-repeat right;
+    background-size: 200px;
+
+}
+
+.card-family {
+    background: #fff url(../assets/family-car.png) no-repeat right;
+    background-size: 200px;
+
+}
+
+i {
+    margin-right: 5px;
 }
